@@ -138,7 +138,7 @@ color isRed
 
 ##那么Spring中FactoryBean和BeanFactory有什么区别呢？
 BeanFactory继承图：
-！[beanFactory](../pic/BeanFactory.png)
+![beanFactory](../pic/BeanFactory.png)
 + **BeanFactory:** 定义了IOC最基本的形态,给IOC容器提供了规范,如上图它是所有IOC容器最底层的接口
 + **FactoryBean:** 给IOC容器获取Bean实例提供了更加灵活的方式
 BeanFactory是个 IOC 容器用于管理各个Bean。FactoryBean是个特殊的Bean它也有IOC管理，它的特殊之处在于可以产生其他的Bean。
