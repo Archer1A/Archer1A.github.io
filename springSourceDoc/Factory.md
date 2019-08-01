@@ -134,7 +134,7 @@ color isRed
 
 ```
 
-当调用getBean("com.vic.springdemo.config.ColorFactoryBean")时，Spring通过反射机制发现ColorFactoryBean实现了FactoryBean接口，这时Spring就会调用getObject()方法将对象返回。若想获取ColorFactoryBean 实例,则需要在BeanName前加个&符号,例如getBean("&com.vic.springdemo.config.ColorFactoryBean").
+当调用getBean("com.vic.springdemo.config.ColorFactoryBean")时，Spring通过反射机制发现ColorFactoryBean实现了FactoryBean接口，这时Spring就会调用getObject()方法将对象返回（如果调到getObject()方法的？请看这里[spring创建bean的流程(一)](./spring创建bean的流程(一).md)）。若想获取ColorFactoryBean 实例,则需要在BeanName前加个&符号,例如getBean("&com.vic.springdemo.config.ColorFactoryBean").
 
 ##那么Spring中FactoryBean和BeanFactory有什么区别呢？
 BeanFactory继承图：
