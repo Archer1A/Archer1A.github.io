@@ -5,4 +5,4 @@
 - **docker**
     + [harbor架构](./dockerDoc/harborArchitecture.md)
 - **OpenStack**
-    +. [CentOS搭建keystone](./dockerDoc/keystone.md)
+    + [CentOS搭建keystone](./dockerDoc/keystone.md)
