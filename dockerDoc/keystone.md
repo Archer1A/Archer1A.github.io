@@ -75,7 +75,7 @@ MariaDB [(none)]> GRANT ALL PRIVILEGES ON keystone.* TO 'keystone'@'%'  IDENTIFI
 
 2. 修改配置文件 `/etc/keystone/keystone.conf`
 
-    + 在 **[database]**项添加数据连接url：
+    + 在 **[database]** 项添加数据连接url：
     ```properties
      [database]
      #....
@@ -83,7 +83,7 @@ MariaDB [(none)]> GRANT ALL PRIVILEGES ON keystone.* TO 'keystone'@'%'  IDENTIFI
     ```
     **KEYSTONE_DBPASS**替换为上面配置的密码
     
-    + 在 **[token]**项配置Fernet token
+    + 在 **[token]** 项配置Fernet token
     
     ```properties
     [token]
