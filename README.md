@@ -4,3 +4,5 @@
     + [FactoryBean与BeanFactory的区别](./springSourceDoc/Factory.md)
 - **docker**
     + [harbor架构](./dockerDoc/harborArchitecture.md)
+- **OpenStack**
+    +. [CentOS搭建keystone](./dockerDoc/keystone.md)
